@@ -1,5 +1,5 @@
 # soa-concept
-Proof of concept of the Process-Oriented Programming paradigm employed by Elixir OTP. Using GenStage, every process is an OTP supervision tree to ensure that the processes are restared on failure.
+Proof of concept of the Process-Oriented Programming paradigm employed by Elixir OTP. Using GenStage, every process is an OTP supervision tree to ensure that the processes are restarted on failure.
 
 The key to this concept is to implement the Service-oriented architecture (SOA) between two services. This is particularly enabled by Elixir and OTP. 
 
